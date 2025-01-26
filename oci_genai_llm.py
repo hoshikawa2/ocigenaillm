@@ -7,6 +7,10 @@ from langchain.schema.runnable import RunnablePassthrough
 from langchain_community.embeddings import OCIGenAIEmbeddings
 from langchain_community.vectorstores import Chroma
 
+def assunto(query, chain):
+    assunto = "nesta sentença '" + query + "', estamos comparando SOA SUITE com OIC ou se trata apenas de 1 unico assunto? responda somente com SOA se o assunto for exclusivamente SOA SUITE, OIC se o assunto for exclusivamente OIC e SOA-OIC se o assunto for comparando SOA SUITE com OIC."
+    print(chain.invoke(assunto))
+
 def chat():
 
     caminhos_pdf = [    './Manuals/using-integrations-oracle-integration-3.pdf',
@@ -132,3 +136,4 @@ def chat2():
         print(chain.invoke(query))
 
 chat()
+

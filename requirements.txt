@@ -1,0 +1,8 @@
+langchain
+langchain_community
+langchain_cohere
+gpt4all
+faiss-cpu
+oci-cli
+chromadb
+joblib

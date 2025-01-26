@@ -132,3 +132,4 @@ def chat2():
         print(chain.invoke(query))
 
 chat()
+

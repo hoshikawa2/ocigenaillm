@@ -1,6 +1,6 @@
-# Weblogic OCI Market Place
+# Testando o OCI Generative AI
 
-## Introduction
+## Introdução
 
 Apresento aqui um snippet da OCI Generative AI para consultas sobre funcionalidades do Oracle SOA SUITE e do Oracle Integration.
 
@@ -29,7 +29,7 @@ Basta executar:
 
 ![img.png](images/img.png)
 
-## Reference
+## Referência
 
 - [Extending SaaS by AI/ML features - Part 8: OCI Generative AI Integration with LangChain Use Cases](https://www.ateam-oracle.com/post/oci-generative-ai-integration-with-langchain-usecases)
 - [Bridging cloud and conversational AI: LangChain and OCI Data Science platform](https://blogs.oracle.com/ai-and-datascience/post/cloud-conversational-ai-langchain-oci-data-science)

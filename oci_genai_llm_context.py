@@ -27,7 +27,7 @@ def chat():
         model_id="meta.llama-3.1-405b-instruct",
         service_endpoint="https://inference.generativeai.us-chicago-1.oci.oraclecloud.com",
         compartment_id="ocid1.compartment.oc1..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
-        auth_profile="LATINOAMERICA",  # replace with your profile name,
+        auth_profile="DEFAULT",  # replace with your profile name,
         model_kwargs={"temperature": 0.7, "top_p": 0.75, "max_tokens": 1000},
     )
 
@@ -35,7 +35,7 @@ def chat():
         model_id="cohere.embed-multilingual-v3.0",
         service_endpoint="https://inference.generativeai.us-chicago-1.oci.oraclecloud.com",
         compartment_id="ocid1.compartment.oc1..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
-        auth_profile="LATINOAMERICA",  # replace with your profile name
+        auth_profile="DEFAULT",  # replace with your profile name
     )
 
     vectorstore = Chroma.from_documents(
@@ -96,7 +96,7 @@ def chat2():
         model_id="meta.llama-3.1-405b-instruct",
         service_endpoint="https://inference.generativeai.us-chicago-1.oci.oraclecloud.com",
         compartment_id="ocid1.compartment.oc1..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
-        auth_profile="LATINOAMERICA",  # replace with your profile name,
+        auth_profile="DEFAULT",  # replace with your profile name,
         model_kwargs={"temperature": 0.7, "top_p": 0.75, "max_tokens": 1000},
     )
 
@@ -104,7 +104,7 @@ def chat2():
         model_id="cohere.embed-multilingual-v3.0",
         service_endpoint="https://inference.generativeai.us-chicago-1.oci.oraclecloud.com",
         compartment_id="ocid1.compartment.oc1..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
-        auth_profile="LATINOAMERICA",  # replace with your profile name
+        auth_profile="DEFAULT",  # replace with your profile name
     )
 
     vectorstore = Chroma.from_documents(

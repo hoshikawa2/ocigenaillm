@@ -26,7 +26,7 @@ def chat():
     llm = ChatOCIGenAI(
         model_id="meta.llama-3.1-405b-instruct",
         service_endpoint="https://inference.generativeai.us-chicago-1.oci.oraclecloud.com",
-        compartment_id="ocid1.compartment.oc1..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        compartment_id="ocid1.compartment.oc1..aaaaaaaaexpiw4a7dio64mkfv2t273s2hgdl6mgfvvyv7tycalnjlvpvfl3q",
         auth_profile="DEFAULT",  # replace with your profile name,
         model_kwargs={"temperature": 0.7, "top_p": 0.75, "max_tokens": 1000},
     )

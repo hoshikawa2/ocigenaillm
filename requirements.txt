@@ -4,5 +4,13 @@ langchain_cohere
 gpt4all
 faiss-cpu
 oci-cli
-chromadb
+chromadb==0.6.3
 joblib
+#llama-cpp-python
+markupsafe
+sentence-transformers
+pdf2image
+langchain-core
+langchain-text-splitters
+chroma-hnswlib==0.7.6
+ollama

@@ -68,7 +68,7 @@ Utilizar mecanismos de Generative AI é muito útil nos dias de hoje, o que trar
 
 A tecnologia traz um ganho enorme baseado numa quantidade de informação gigantesca, porém, informação interpretada de forma errada não é benéfico e o ganho de tempo funcionaria de forma contrária.
 
-Não há dúvidas dos ganhos da Generative AI, porém ainda há a necessidade do fator humano para termos um melhor desempenho.
+Não há dúvidas dos ganhos da Generative AI, porém é necessária uma validação e deveria ser humana.
 
 ## Referência
 

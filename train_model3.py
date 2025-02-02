@@ -1,12 +1,12 @@
 # https://drlee.io/step-by-step-guide-fine-tuning-metas-llama-3-2-1b-model-f1262eda36c8
 
 import torch
-from transformers import AutoModelForCausalLM, AutoTokenizer
+from transformers import LlamaForQuestionAnswering, AutoTokenizer
 
 # Load the model and tokenizer
 model_id = '/Users/cristianohoshikawa/Projects/Python/huggingface/Llama-3.2-1B'
 tokenizer = AutoTokenizer.from_pretrained(model_id)
-model = AutoModelForCausalLM.from_pretrained(model_id)
+model = LlamaForQuestionAnswering.from_pretrained(model_id)
 
 # Set the padding token if it's not already set
 if tokenizer.pad_token is None:
